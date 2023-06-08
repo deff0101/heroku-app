@@ -2,26 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.button-primary {
+  @apply bg-theme-greeny py-[10px] px-[18px] text-white rounded-3xl;
+}
+.button-raw-primary {
+  @apply bg-theme-greeny text-white rounded-3xl cursor-pointer;
+}
+.button-secondary {
+  @apply bg-[#f2f2f2] py-[10px] px-[18px] rounded-xl;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.custom-swiper-button-next {
+  @apply bg-red-400 w-10 h-10;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.group:hover {
+  @apply bg-cover bg-[url('../assets/foodBG.svg')] bg-blend-soft-light object-contain h-full w-full;
 }
