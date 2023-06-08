@@ -14,14 +14,14 @@ function Header() {
         <div className=" hidden md:flex gap-x-8">
           {LINKS.header.map((item) =>
             item.text === "Promotions" ? (
-              <div className="relative">
+              <div className="relative" key={item.text}>
                 <div className="text-white text-[9px] bg-red-600 px-[7px] py-[3px] rounded-lg absolute top-[-14px] right-[-14px] font-bold">
                   HOT
                 </div>
                 <Link href="#">Promotios</Link>
               </div>
             ) : (
-              <div>
+              <div key={item.text}>
                 <Link href={item.to}>{item.text}</Link>
               </div>
             )
