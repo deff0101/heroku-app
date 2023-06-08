@@ -9,7 +9,7 @@ function Header() {
     <header className="w-full md:max-w-[1185px] mx-auto mb-10 md:mb-0">
       <nav className="w-full flex justify-between items-center md:py-4 p-4 md:px-0">
         <div className="w-[150px] md:w-[200px]">
-          <Image src={LOGO} className="" />
+          <Image src={LOGO} className="" alt="elmes-logo" />
         </div>
         <div className=" hidden md:flex gap-x-8">
           {LINKS.header.map((item) =>

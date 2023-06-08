@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <section className="max-w-[1185px] mx-auto mb-20 md:mb-24">
         <div className="absolute z-[-1] opacity-5 max-w-[1185px]">
-          <Image src={foodBG} className="object-cover" />
+          <Image src={foodBG} className="object-cover" alt="food background" />
         </div>
         <JumboTron />
       </section>

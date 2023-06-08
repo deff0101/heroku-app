@@ -10,7 +10,7 @@ function Footer() {
     <section className="hidden md:block max-w-[1185px] mx-auto mb-20 md:span-0 px-6">
       <div className="grid grid-cols-[2fr,1fr,1fr,1fr] text-sm gap-x-20">
         <div className="space-y-5">
-          <Image src={LOGO} className="mb-5" />
+          <Image src={LOGO} className="mb-5" alt="elmes-logo" />
           <span>
             Jl. Prof. DR. Satrio No.7, RT.3/RW.3, Karet Kuningan, Kecamatan
             Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950

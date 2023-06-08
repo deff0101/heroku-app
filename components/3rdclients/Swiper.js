@@ -70,6 +70,7 @@ export default function SwiperComponent() {
             >
               <div className="flex flex-col items-center ">
                 <Image
+                  alt="food category"
                   src={item.src}
                   width={50}
                   className="group-hover:scale-110 transition-all ease-in duration-150"

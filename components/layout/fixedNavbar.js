@@ -5,15 +5,15 @@ function FixedNavbar() {
   return (
     <div className="fixed bottom-0 bg-white flex w-screen md:hidden justify-between px-4 pt-2 text-xs z-50 rounded-t-lg">
       <div className="flex flex-col items-center gap-y-1">
-        <Image src={HAMBURGER} width={30} />
+        <Image src={HAMBURGER} width={30} alt="icon menu" />
         <span>Home</span>
       </div>
       <div className="flex flex-col items-center self-start">
-        <Image src={HAMBURGER} width={30} />
+        <Image src={HAMBURGER} width={30} alt="icon menu" />
         <span>Promotions</span>
       </div>
       <div className="flex flex-col items-center gap-y-1">
-        <Image src={HAMBURGER} width={30} />
+        <Image src={HAMBURGER} width={30} alt="icon menu" />
         <span>Others</span>
       </div>
     </div>

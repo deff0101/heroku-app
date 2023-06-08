@@ -14,12 +14,12 @@ export default function JumboTron() {
       <div className="relative md:col-start-2 md:row-span-3 flex md:items-center md:justify-center justify-start">
         <div className="rounded-full border-[20px] md:border-[40px] border-[#c4c4c4] border-opacity-10">
           <div className="w-[200px] md:w-[400px]">
-            <Image src={PIZZA} />
+            <Image src={PIZZA} alt="pizza" />
           </div>
         </div>
         <div className="flex items-center rounded-xl bg-white bg-opacity-75 absolute p-2 pr-10 gap-x-2 bottom-[40px] right-0 md:right-auto md:left-[150px] shadow-md backdrop-blur-sm">
           <div className="w-12 md:w-9">
-            <Image src={PIZZA} />
+            <Image src={PIZZA} alt="pizza" />
           </div>
           <div className="flex flex-col text-xs">
             <p className="font-bold">green salad tomato</p>

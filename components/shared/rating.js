@@ -11,7 +11,11 @@ export default function Rating({ rate }) {
   return (
     <div className="flex">
       {allArray.map((el) => {
-        return el ? <Image src={STARFILL} /> : <Image src={STARNOFILL} />;
+        return el ? (
+          <Image src={STARFILL} alt="star-yellow" />
+        ) : (
+          <Image src={STARNOFILL} alt="star" />
+        );
       })}
     </div>
   );
