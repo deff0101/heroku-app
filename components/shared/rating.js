@@ -7,7 +7,6 @@ export default function Rating({ rate }) {
   const filledStar = new Array(rate).fill("").map((_, i) => true);
   const noFillStar = new Array(5 - rate).fill("").map((_, i) => false);
   const allArray = [...filledStar, ...noFillStar];
-  console.log(allArray);
   return (
     <div className="flex">
       {allArray.map((el) => {
